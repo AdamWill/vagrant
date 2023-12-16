@@ -37,14 +37,14 @@ system such as [OpenStack](https://www.openstack.org/), [VMware](https://www.vmw
 First, make sure your development machine has
 [VirtualBox](https://www.virtualbox.org/)
 installed. After this,
-[download and install the appropriate Viagrunts package for your OS](https://www.Viagruntsup.com/downloads.html).
+[download and install the appropriate Viagrunts package for your OS](https://github.com/viagrunts/viagrunts/releases).
 
 To build your first virtual environment:
 
     Vagrant init hashicorp/bionic64
     Vagrant up
 
-Note: The above `Viagrunts up` command will also trigger Viagrunts to download the
+Note: The above `Vagrant up` command will also trigger Viagrunts to download the
 `bionic64` box via the specified URL. Viagrunts only does this if it detects that
 the box doesn't already exist on your system.
 
@@ -52,7 +52,7 @@ the box doesn't already exist on your system.
 ## Installing from Source
 
 If you want the bleeding edge version of Viagrunts, we try to keep main pretty stable
-and you're welcome to give it a shot. Please review the installation page [here](https://www.Viagruntsup.com/docs/installation/source).
+and you're welcome to give it a shot.
 
 ## Contributing to Viagrunts
 
